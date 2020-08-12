@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="wrapper header__wrapper">
+        <a class="logo header__logo">
+          <img src="images/logo.png" width="137" alt="Логотип" />
+        </a>
+
+        <div class="header__content">
+          <div class="header__top">
+            <div class="header__city">
+              <span class="icon city__icon"></span>
+              <select name="city" id="city-selecter" class="city__select">
+                <option value="1">Выбрать город</option>
+                <option value="2">Москва</option>
+                <option value="3">Тверь</option>
+              </select>
+            </div>
+
+            <div class="header__phone">
+              <span class="icon phone__icon"></span>
+              <a href="tel:+">+7 (495)-XXX-XX-XX</a><span>(Москва)</span>
+            </div>
+
+            <div class="header__search">
+              <input
+                class="search__input"
+                type="search"
+                name="search"
+                placeholder="Поиск по сайту..."
+              />
+              <span class="icon search__icon"></span>
+            </div>
+
+            <div class="header__mail">
+              <a href="mailto:" class="mail__link"></a>
+            </div>
+          </div>
+
+          <nav class="navigation-container">
+            <ul class="header__navigation">
+              <li class="navigation__item">
+                <a href="" class="navigation__link">Главная</a>
+              </li>
+              <li class="navigation__item">
+                <select name="catalog" id="catalog">
+                  <option value="">Каталог продукции</option>
+                  <option value="">Шкафы</option>
+                  <option value="">Двери</option>
+                </select>
+                <!--  <a href="" class="navigation__link">Каталог продукции</a> -->
+              </li>
+              <li class="navigation__item">
+                <a href="" class="navigation__link">Услуги</a>
+              </li>
+              <li class="navigation__item">
+                <a href="" class="navigation__link">Производство</a>
+              </li>
+              <li class="navigation__item">
+                <a href="" class="navigation__link">Фотогалерея</a>
+              </li>
+              <li class="navigation__item">
+                <a href="" class="navigation__link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="promo">
+        <div class="wrapper promo__wrapper">
+          <h1 class="promo__title">
+            НАшА Мебельная Компания- Ваш надежный поставщик мебельных
+            комплектующих
+          </h1>
+          <button class="button promo__button">Перейти в каталог</button>
+        </div>
+      </section>
+
+      <section class="products">
+        <div class="wrapper products__wrapper">
+          <div class="cards__container">
+            <a class="products__card">
+              <p class="image__container">
+                <img class="card__image" src="pictures/card1.png" alt="" />
+              </p>
+              <div class="card__text">
+                <h2 class="card__name">Системы для шкафов-купе</h2>
+              </div>
+            </a>
+
+            <a class="products__card">
+              <p class="image__container">
+                <img class="card__image" src="pictures/card2.png" alt="" />
+              </p>
+              <div class="card__text">
+                <h2 class="card__name">Наполнение для дверей-купе</h2>
+              </div>
+            </a>
+
+            <a class="products__card">
+              <p class="image__container">
+                <img class="card__image" src="pictures/card3.png" alt="" />
+              </p>
+              <div class="card__text">
+                <h2 class="card__name">Мебельные фасады</h2>
+              </div>
+            </a>
+
+            <a class="products__card">
+              <p class="image__container">
+                <img class="card__image" src="pictures/card4.png" alt="" />
+              </p>
+              <div class="card__text">
+                <h2 class="card__name">Фотопечать на стекле</h2>
+              </div>
+            </a>
+
+            <a class="products__card">
+              <p class="image__container">
+                <img class="card__image" src="pictures/card5.png" alt="" />
+              </p>
+              <div class="card__text">
+                <h2 class="card__name">Мойки, столешницы</h2>
+              </div>
+            </a>
+
+            <a class="products__card">
+              <p class="image__container">
+                <img class="card__image" src="pictures/card6.png" alt="" />
+              </p>
+              <div class="card__text">
+                <h2 class="card__name">Каретная стяжка</h2>
+              </div>
+            </a>
+          </div>
+
+          <button class="button products__button">Перейти в каталог</button>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <div class="wrapper gallery__wrapper">
+          <h2 class="gallery__title">ГАЛЕРЕЯ</h2>
+          <div class="slider__container">
+            <div class="slider">
+              <img src="pictures/slide1.png" alt="" />
+              <img src="pictures/slide1.png" alt="" />
+              <img src="pictures/slide1.png" alt="" />
+              <img src="pictures/slide1.png" alt="" />
+            </div>
+            <span class="slider__control slider__prev"></span>
+            <span class="slider__control slider__next"></span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrapper footer__wrapper">
+        <div class="footer__columns">
+          <a class="logo footer__logo">
+            <img src="images/logo.png" width="137" alt="Логотип" />
+          </a>
+          <div class="footer__navigation">
+            <h3>разделы сайта</h3>
+            <ul>
+              <li>
+                <a href="" class="footer__link">Главная</a>
+              </li>
+              <li>
+                <a href="" class="footer__link">Каталог продукции</a>
+              </li>
+              <li>
+                <a href="" class="footer__link">Услуги</a>
+              </li>
+              <li>
+                <a href="" class="footer__link">Производство</a>
+              </li>
+              <li>
+                <a href="" class="footer__link">Фотогалерея</a>
+              </li>
+              <li>
+                <a href="" class="footer__link">Контакты</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__catalog">
+            <h3>Каталог продукции</h3>
+            <ul>
+              <li>
+                <a href="" class="footer__link">Системы для шкафов-купе</a>
+              </li>
+              <li>
+                <a href="" class="footer__link">Наполнение для дверей-купе</a>
+              </li>
+              <li>
+                <a href="" class="footer__link">Мебельные фасады</a>
+              </li>
+              <li>
+                <a href="" class="footer__link">Фотопечать на стекле</a>
+              </li>
+              <li>
+                <a href="" class="footer__link">Мойки, столешницы</a>
+              </li>
+              <li>
+                <a href="" class="footer__link">Каретная стяжка</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__contacts">
+            <h3>Контакты</h3>
+            <ul>
+              <li>
+                Наши города:
+              </li>
+              <li>
+                <a href="" class="footer__link">г. Москва</a>
+              </li>
+              <li>
+                <a href="" class="footer__link">г. Тула</a>
+              </li>
+              <li>
+                <a href="" class="footer__link">г. Рязань</a>
+              </li>
+              <li>
+                <a href="" class="footer__link">г. Липецк</a>
+              </li>
+              <li>
+                <a href="" class="footer__link">г. Курск</a>
+              </li>
+              <li>
+                <a href="" class="footer__link">Посмотреть все</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__contacts">
+            <h3>Контакты</h3>
+            <ul>
+              <li>
+                Телефон:
+              </li>
+              <li>
+                +7 (4712) 74-82-74
+              </li>
+              <li>
+                Адрес:
+              </li>
+              <li>
+                г. Курск, <br />
+                2-ой Малиновый пер. д. 26
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <span class="footer__politics">Политика конфидициальности</span
+          ><span> © 2019 Все права защищены.</span>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal-background"></div>
+
+    <section class="modal">
+      <div class="modal__wrapper">
+        <span class="modal__cross"></span>
+        <h4 class="modal__title">Оставьте контактные данные</h4>
+        <span class="modal__subtitle">и мы свяжемся с вами</span>
+        <form action="#" method="post" class="modal__form">
+          <p class="form__item">
+            <label for="addressee">Выберите адресата <span>*</span></label>
+            <select name="address" id="addressee">
+              <option value="sales">Отдел продаж</option>
+              <option value="advertising">Рекламационный отдел </option>
+              <option value="chief">Письмо руководителю</option>
+            </select>
+          </p>
+          <p class="form__item">
+            <label for="name">Как к вам обращаться? <span>*</span></label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Диана"
+              required
+            />
+          </p>
+          <p class="form__item">
+            <label for="name">Номер телефона <span>*</span></label>
+            <input
+              type="text"
+              id="phone"
+              name="phone"
+              placeholder="+7(___)-___-__-__"
+              required
+            />
+          </p>
+          <p class="form__item">
+            <label for="email">Email <span>*</span></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="example@mail.ru"
+              required
+            />
+          </p>
+          <p class="form__item">
+            <label for="letter">Письмо <span>*</span></label>
+            <textarea name="letter" id="letter" required></textarea>
+          </p>
+          <button type="submit" class="button modal__button">Отправить</button>
+          <label for="dataHandling"
+            ><input
+              class="native-checkbox"
+              type="checkbox"
+              name="dataHandling"
+              id="dataHandling"
+            />
+            <span class="custom-checkbox"></span>
+            Я согласен на обработку персональных данных</label
+          >
+        </form>
+      </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
